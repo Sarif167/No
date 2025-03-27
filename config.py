@@ -4,13 +4,13 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # evertel client config
-    API_ID    = os.environ.get("API_ID", "")
-    API_HASH  = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+    API_ID    = os.environ.get("API_ID", "26597768")
+    API_HASH  = os.environ.get("API_HASH", "340f87444e648a712eae77c310648e21")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7355277731:AAHpyfQTbNh58dBAxqgTlx-TS-yt-4Y1Du8") 
    
     # database config
     DB_NAME = os.environ.get("DB_NAME","pyro-botz")     
-    DB_URL  = os.environ.get("DB_URL","")
+    DB_URL  = os.environ.get("DB_URL","mongodb+srv://mongodb011:rxXV4pGzxLJgxaXQ@cluster0.undjh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
  
     # other configs
     BOT_UPTIME  = time.time()
